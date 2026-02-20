@@ -1,0 +1,9 @@
+# Workers app specific ignores
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.turbo/
+node_modules/

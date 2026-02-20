@@ -1,0 +1,85 @@
+{"level":"info","message":"🚀 API Server running on port 4000","service":"storyboard-api","timestamp":"2026-02-20 19:38:28"}
+{"level":"info","message":"📍 Health check: http://localhost:4000/health","service":"storyboard-api","timestamp":"2026-02-20 19:38:28"}
+{"level":"info","message":"📍 API base: http://localhost:4000/api","service":"storyboard-api","timestamp":"2026-02-20 19:38:28"}
+{"level":"info","message":"GET /health 200 - 2ms","service":"storyboard-api","timestamp":"2026-02-20 19:41:06"}
+{"level":"error","message":"Missing or invalid authorization header","method":"GET","path":"/api/projects","service":"storyboard-api","stack":"Error: Missing or invalid authorization header\n    at AppError.unauthorized (C:\\Users\\Danimak\\Desktop\\storyboard-ai\\apps\\api\\src\\utils\\errors.ts:32:12)\n    at authMiddleware (C:\\Users\\Danimak\\Desktop\\storyboard-ai\\apps\\api\\src\\middleware\\auth.ts:23:22)\n    at Layer.handle [as handle_request] (C:\\Users\\Danimak\\Desktop\\storyboard-ai\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Danimak\\Desktop\\storyboard-ai\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Danimak\\Desktop\\storyboard-ai\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\Danimak\\Desktop\\storyboard-ai\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Danimak\\Desktop\\storyboard-ai\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at router.handle (C:\\Users\\Danimak\\Desktop\\storyboard-ai\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Danimak\\Desktop\\storyboard-ai\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\\Users\\Danimak\\Desktop\\storyboard-ai\\node_modules\\express\\lib\\router\\layer.js:95:5)","timestamp":"2026-02-20 19:41:12"}
+{"level":"info","message":"GET /api/projects 401 - 3ms","service":"storyboard-api","timestamp":"2026-02-20 19:41:12"}
+{"level":"info","message":"GET /health 200 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 19:41:59"}
+{"level":"info","message":"GET /health 200 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 19:48:02"}
+{"level":"info","message":"🚀 API Server running on port 4000","service":"storyboard-api","timestamp":"2026-02-20 19:52:23"}
+{"level":"info","message":"📍 Health check: http://localhost:4000/health","service":"storyboard-api","timestamp":"2026-02-20 19:52:23"}
+{"level":"info","message":"📍 API base: http://localhost:4000/api","service":"storyboard-api","timestamp":"2026-02-20 19:52:23"}
+{"level":"error","message":"Missing Supabase environment variables","service":"storyboard-api","timestamp":"2026-02-20 19:57:24"}
+{"level":"info","message":"🚀 API Server running on port 4000","service":"storyboard-api","timestamp":"2026-02-20 20:11:22"}
+{"level":"info","message":"📍 Health check: http://localhost:4000/health","service":"storyboard-api","timestamp":"2026-02-20 20:11:22"}
+{"level":"info","message":"📍 API base: http://localhost:4000/api","service":"storyboard-api","timestamp":"2026-02-20 20:11:22"}
+{"level":"info","message":"🔧 Local auth enabled (no Supabase/Redis required)","service":"storyboard-api","timestamp":"2026-02-20 20:11:22"}
+{"level":"info","message":"GET /health 200 - 2ms","service":"storyboard-api","timestamp":"2026-02-20 20:11:44"}
+{"level":"info","message":"New user signed up: test@test.com","service":"storyboard-api","timestamp":"2026-02-20 20:11:52"}
+{"level":"info","message":"POST /signup 201 - 2ms","service":"storyboard-api","timestamp":"2026-02-20 20:11:52"}
+{"level":"info","message":"POST /login 200 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:11:56"}
+{"level":"info","message":"POST /login 200 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:12:47"}
+{"level":"info","message":"GET / 200 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:12:48"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:12:48"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:13:06"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:13:06"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:13:31"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:13:31"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 20:19:49"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:19:49"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:24:13"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:24:13"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 20:32:34"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 20:32:34"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:33:06"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:33:06"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 20:37:15"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 20:37:15"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 20:41:17"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 20:41:17"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 20:44:38"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 20:44:38"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 20:50:39"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 20:50:39"}
+{"level":"info","message":"🚀 API Server running on port 4000","service":"storyboard-api","timestamp":"2026-02-20 21:21:55"}
+{"level":"info","message":"📍 Health check: http://localhost:4000/health","service":"storyboard-api","timestamp":"2026-02-20 21:21:55"}
+{"level":"info","message":"📍 API base: http://localhost:4000/api","service":"storyboard-api","timestamp":"2026-02-20 21:21:55"}
+{"level":"info","message":"🔧 Local auth enabled (no Supabase/Redis required)","service":"storyboard-api","timestamp":"2026-02-20 21:21:55"}
+{"level":"info","message":"GET /health 200 - 4ms","service":"storyboard-api","timestamp":"2026-02-20 21:22:03"}
+{"level":"info","message":"New user signed up: test@example.com","service":"storyboard-api","timestamp":"2026-02-20 21:22:46"}
+{"level":"info","message":"POST /signup 201 - 2ms","service":"storyboard-api","timestamp":"2026-02-20 21:22:46"}
+{"level":"info","message":"New user signed up: sk.kisl@ya.ru","service":"storyboard-api","timestamp":"2026-02-20 21:39:28"}
+{"level":"info","message":"POST /signup 201 - 3ms","service":"storyboard-api","timestamp":"2026-02-20 21:39:28"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 21:39:29"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 21:39:29"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 21:39:45"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 21:39:45"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:39:58"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:39:58"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 21:48:30"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 21:48:30"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 21:48:47"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:48:47"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:48:51"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:48:51"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:48:56"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:48:56"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 21:48:59"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:48:59"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:49:03"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:49:03"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:49:06"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:49:06"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 21:52:19"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:52:19"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:54:30"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:54:30"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 21:54:36"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:54:36"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 21:54:45"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:54:45"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 21:59:01"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 22:03:45"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 22:03:45"}
+{"level":"info","message":"GET / 304 - 1ms","service":"storyboard-api","timestamp":"2026-02-20 22:03:50"}
+{"level":"info","message":"GET / 304 - 0ms","service":"storyboard-api","timestamp":"2026-02-20 22:03:50"}

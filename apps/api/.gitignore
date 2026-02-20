@@ -1,0 +1,5 @@
+# API app specific ignores
+dist/
+.turbo/
+node_modules/
+logs/
