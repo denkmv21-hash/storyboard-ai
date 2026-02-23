@@ -92,3 +92,7 @@
 {"level":"info","message":"GET / 404 - 3ms","service":"storyboard-api","timestamp":"2026-02-23 13:50:54"}
 {"level":"info","message":"GET /favicon.ico 404 - 0ms","service":"storyboard-api","timestamp":"2026-02-23 13:50:54"}
 {"level":"info","message":"GET / 404 - 1ms","service":"storyboard-api","timestamp":"2026-02-23 13:51:00"}
+{"level":"info","message":"GET / 401 - 3ms","service":"storyboard-api","timestamp":"2026-02-23 14:35:43"}
+{"level":"info","message":"GET / 401 - 1ms","service":"storyboard-api","timestamp":"2026-02-23 14:35:43"}
+{"level":"info","message":"GET / 401 - 0ms","service":"storyboard-api","timestamp":"2026-02-23 14:52:17"}
+{"level":"info","message":"GET / 401 - 1ms","service":"storyboard-api","timestamp":"2026-02-23 14:52:17"}
