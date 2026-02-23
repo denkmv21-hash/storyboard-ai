@@ -87,3 +87,8 @@
 {"level":"info","message":"📍 Health check: http://localhost:4000/health","service":"storyboard-api","timestamp":"2026-02-23 13:49:34"}
 {"level":"info","message":"📍 API base: http://localhost:4000/api","service":"storyboard-api","timestamp":"2026-02-23 13:49:34"}
 {"level":"info","message":"🔧 Local auth enabled (no Supabase/Redis required)","service":"storyboard-api","timestamp":"2026-02-23 13:49:34"}
+{"level":"info","message":"GET / 401 - 4ms","service":"storyboard-api","timestamp":"2026-02-23 13:50:38"}
+{"level":"info","message":"GET / 401 - 1ms","service":"storyboard-api","timestamp":"2026-02-23 13:50:38"}
+{"level":"info","message":"GET / 404 - 3ms","service":"storyboard-api","timestamp":"2026-02-23 13:50:54"}
+{"level":"info","message":"GET /favicon.ico 404 - 0ms","service":"storyboard-api","timestamp":"2026-02-23 13:50:54"}
+{"level":"info","message":"GET / 404 - 1ms","service":"storyboard-api","timestamp":"2026-02-23 13:51:00"}
